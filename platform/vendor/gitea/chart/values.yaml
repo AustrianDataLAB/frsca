@@ -120,7 +120,7 @@ statefulset:
   annotations: {}
 
 persistence:
-  enabled: true
+  enabled: false
   # existingClaim:
   size: 10Gi
   accessModes:
@@ -266,7 +266,7 @@ postgresql:
       postgresqlPassword: gitea
       servicePort: 5432
   persistence:
-    size: 10Gi
+    size: 1Gi
 
 mysql:
   enabled: false

@@ -106,7 +106,7 @@ statefulset:
   annotations: {}
 
 persistence:
-  enabled: true
+  enabled: false
   # existingClaim:
   size: 10Gi
   accessModes:

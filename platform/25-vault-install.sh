@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-GIT_ROOT=$(git rev-parse --show-toplevel)
+# GIT_ROOT=$(git rev-parse --show-toplevel)
 
 kubectl create namespace vault --dry-run=client -o yaml | kubectl apply -f -
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
-GIT_ROOT=$(git rev-parse --show-toplevel)
+# GIT_ROOT=$(git rev-parse --show-toplevel)
 # Update below if you have a different config.json you want to use.
 DOCKER_CONFIG_JSON=$HOME/.docker/config.json
 if [ ! -f "${DOCKER_CONFIG_JSON}" ]; then

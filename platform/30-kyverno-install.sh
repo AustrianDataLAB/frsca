@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-GIT_ROOT=$(git rev-parse --show-toplevel)
+# GIT_ROOT=$(git rev-parse --show-toplevel)
 KYVERNO_INSTALL_DIR=${GIT_ROOT}/platform/vendor/kyverno/release
 
 # Define variables.

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -exuo pipefail
 
-GIT_ROOT=$(git rev-parse --show-toplevel)
+# GIT_ROOT=$(git rev-parse --show-toplevel)
 
 vault_name="$(kubectl get pods -l app.kubernetes.io/name=vault -n vault -o name | head -1)"
 ROOT_TOKEN=""

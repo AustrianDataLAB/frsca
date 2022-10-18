@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-GIT_ROOT=$(git rev-parse --show-toplevel)
+# GIT_ROOT=$(git rev-parse --show-toplevel)
 
 # Setup tekton tasks
 kubectl apply -f "${GIT_ROOT}"/platform/vendor/tekton/catalog/main/task/buildpacks/0.5/buildpacks.yaml
